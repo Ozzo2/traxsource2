@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
-PATH = r"C:\Users\Ozren\Desktop\Python\traxsource\songlist.txt"
+PATH = ".\songlist.txt"
 LINK = "https://www.traxsource.com/genre/4/house/top"
 
 response = requests.get(LINK)
