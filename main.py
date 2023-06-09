@@ -17,7 +17,7 @@ songs = []
 artists = []
 version = []
 
-#create lists for songs, artists and versions
+# create lists for songs, artists and versions
 for res in title[1:]:
     songName = res.find(class_="title").a.get_text(strip=True)
     songs.append(songName)
